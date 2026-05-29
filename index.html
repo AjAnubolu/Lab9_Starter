@@ -11,14 +11,18 @@
     TrackJS error monitoring (Step 5).
     1. Sign up for a free trial at https://trackjs.com/
     2. Copy your token from the TrackJS install page.
-    3. Replace REPLACE_WITH_YOUR_TRACKJS_TOKEN below with that token.
+    3. The token below is configured for this project's TrackJS app.
     With a valid token, every error you trigger (the calculator throws and the
     "Trigger a Global Error" button) is reported to your TrackJS dashboard.
   -->
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
   <script>
-    window._trackJs = { token: 'REPLACE_WITH_YOUR_TRACKJS_TOKEN', application: 'lab9-starter' };
+    window.TrackJS && TrackJS.install({
+      token: "33c1b67ba3b64b81bdd2bbb8ae745519",
+      application: "lab-9-starter"
+      // for more configuration options, see https://docs.trackjs.com
+    });
   </script>
-  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js" crossorigin="anonymous"></script>
 
   <style>
     button {

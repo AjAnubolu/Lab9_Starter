@@ -36,10 +36,9 @@ throws *outside* any try/catch. It is caught two ways:
 Both log the caught error to the console. **TrackJS** is integrated via the
 agent script in `<head>`.
 
-## TrackJS setup note
-The TrackJS token in `index.html` is a placeholder
-(`REPLACE_WITH_YOUR_TRACKJS_TOKEN`). To make errors report to a live dashboard,
-replace it with the token from your TrackJS trial account. See
+## TrackJS
+TrackJS is configured with a live token (application `lab-9-starter`). Errors
+triggered on the deployed site are reported to the TrackJS dashboard. See
 `trackjs-screenshot.png` for the captured error report (username + error list).
 
 ## Expand
