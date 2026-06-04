@@ -1,7 +1,7 @@
 # Lab 9 - JavaScript Error Handling, Monitoring, & JS Docs
 
 **Name:** Ajay Anubolu
-**Partner(s):** none (solo)
+
 
 **Deployed GitHub Pages URL:** https://ajanubolu.github.io/Lab9_Starter/
 
@@ -41,5 +41,3 @@ TrackJS is configured with a live token (application `lab-9-starter`). Errors
 triggered on the deployed site are reported to the TrackJS dashboard. See
 `trackjs-screenshot.png` for the captured error report (username + error list).
 
-## Expand
-Not implemented (optional, no points).
